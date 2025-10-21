@@ -44,7 +44,6 @@ nav {
 .nav-link:hover {
     background-color: #D9D9D9;
     color:#E10500;
-    box-shadow: s#adadad 0px 0px 3px;
     transform: scale(1.1);
 }
 
