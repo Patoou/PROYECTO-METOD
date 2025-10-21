@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="es">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
@@ -17,20 +14,18 @@
             <a class="nav-link" href="#about">¿Cómo funciona?</a>
         </div>
     </nav>
-  
 
     <main>
     <section class="hero">
         <div class="container hero_inner">
             <img src="/img/Imagen ferrari.png" alt="F1 Car" class="car_img">
             <div class="hero_text hero_text_container">
-                <h1 class="hero__title">F1 Strategy</h1>
-                <p class="hero__subtitle">La Fórmula 1 y el simracing comparten un mismo punto en común: la estrategia. En ambos mundos, decidir cuándo parar en boxes o qué neumáticos usar puede definir una victoria o una derrota. Por eso, entender y anticipar estas decisiones se vuelve tan importante como la propia conducción.</p>
+                <p class="hero__subtitle">La Fórmula 1 y el simracing comparten un mismo punto en común: la estrategia. En ambos mundos, decidir cuándo parar en boxes o qué neumáticos usar puede definir una victoria o una derrota</p>
             </div>
         </div>
         <div class="container hero_inner">
-            <p class="hero_text">En la F1 real, la estrategia marca la diferencia en décimas de segundo; en el simracing, permite que los jugadores vivan la experiencia con un realismo aún mayor. En los dos casos, contar con herramientas que apoyen esas decisiones estratégicas potencia el espectáculo y acerca la competencia a un nivel más profesional.</p>
-            <img src="/img/Imagen_aston_martin.png" alt="F1 Car" class="car_img">
+            <p class="hero_text">Las herramientas de análisis predictivo que usan los equipos no están al alcance del público. Este  proyecto busca acercar ese conocimiento técnico a los aficionados</p>
+            <img src="/img/Imagen Alpine.png" alt="F1 Car" class="car_img">
         </div>
     </section>
     <section class="make_prediction" id="make_prediction">
@@ -40,9 +35,11 @@
     <section class="about" id="about">
         <div class="container about_inner">
             <h1 class="about_title">¿Cómo funciona?</h1>
-            <p class="hero_text">Nuestra herramienta utiliza datos históricos de carreras, condiciones climáticas y rendimiento de los neumáticos para analizar y predecir la mejor estrategia de carrera para cada Gran Premio. Al ingresar detalles específicos del evento, como la pista, el clima y las condiciones del vehículo, nuestro algoritmo genera recomendaciones personalizadas para optimizar tu estrategia de carrera.</p>
+            <p class="about_text">La página permite al usuario ingresar los datos de una carrera —como el circuito, el equipo y la presencia de lluvia— y obtener en segundos una estrategia óptima: la cantidad de paradas, las vueltas óptimas y los compuestos ideales.
+                El sistema envía la información al modelo estadístico, que analiza los datos históricos y devuelve la predicción más eficiente. Todo esto se procesa en R y se visualiza a través de una página web desarrollada con Python, HTML, CSS y JavaScript.
+                De esta forma, la herramienta combina aprendizaje automático y simulación para ofrecer una experiencia intuitiva y educativa.</p>
         </div>
-        <img src="/img/placeholder.jpg" alt="pending" class="pending_image">
+        <img src="/img/carrera.jpg" alt="pending" class="pending_image">
     </section>
     </main>
     <footer class="site-footer">    
