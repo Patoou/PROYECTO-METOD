@@ -140,6 +140,14 @@ nav {
         width: 30vw;
     }
 
+    .make_prediction{
+        height: 70vh;
+        gap: 5vh;
+    }
+    .make_prediction a {
+        padding: 10px 50px;
+    }
+
     .about {
         flex-direction: column;
         align-items: center;
@@ -148,13 +156,19 @@ nav {
         flex-wrap: wrap;
     }
 
+    .about_inner {
+        order: 1;
+    }
+
     .about_title, .about_text {
         width: 100%;
         text-align: center;
     }
 
     .pending_image {
-        width: 80%;
+        order: 2;
+        max-height: 70vh;
+        margin-bottom: 4vh;
     }
 
     .about_title {
@@ -183,5 +197,5 @@ footer h3 {
 
 footer p {
     margin: 2vh;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
